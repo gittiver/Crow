@@ -1,11 +1,11 @@
 name: Build and test
 
-#on: push
-on:
-  push:
-    branches: [ "master" ]
-  pull_request:
-    branches: [ "master" ]
+on: push
+#on:
+#  push:
+#    branches: [ "master" ]
+#  pull_request:
+#    branches: [ "master" ]
 
 env:
   # Customize the CMake build type here (Release, Debug, RelWithDebInfo, etc.)
@@ -23,10 +23,12 @@ jobs:
       fail-fast: true
       matrix:
         os: [ ubuntu-latest,
+              windows-2019,
               windows-latest,
               ubuntu-20.04,
               macos-latest,
-              macos-11
+              macos-11,
+              macos-13
             ]
             # ubuntu-18.04 does not work due to compile error on asio
             # windows-2019 not included to spare free minutes   
