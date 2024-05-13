@@ -152,7 +152,7 @@ $(document).ready(function(){initNavTree('session_8h_source.html',''); initResiz
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <span class="keyword">using </span>wrap_mv_t = wrap_char_t&lt;wrap_integral_t&lt;T&gt;&gt;;</div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>} <span class="comment">// namespace</span></div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="keyword">namespace </span>crow</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespacecrow.html">crow</a></div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>{</div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    <span class="keyword">namespace </span>session</div>
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    {</div>
@@ -209,7 +209,7 @@ $(document).ready(function(){initNavTree('session_8h_source.html',''); initResiz
 <div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>            {</div>
 <div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>                <span class="keywordflow">case</span> type::Number:</div>
 <div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>                {</div>
-<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>                    <span class="keywordflow">if</span> (rv.nt() == num_type::Floating_point)</div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>                    <span class="keywordflow">if</span> (rv.nt() == num_type::Floating_point || rv.nt() == num_type::Double_precision_floating_point)</div>
 <div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>                        <span class="keywordflow">return</span> multi_value{rv.d()};</div>
 <div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>                    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (rv.nt() == num_type::Unsigned_integer)</div>
 <div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>                        <span class="keywordflow">return</span> multi_value{int64_t(rv.u())};</div>
@@ -724,15 +724,16 @@ $(document).ready(function(){initNavTree('session_8h_source.html',''); initResiz
 </div>
 <div class="line"><a id="l00603" name="l00603"></a><span class="lineno">  603</span> </div>
 <div class="line"><a id="l00604" name="l00604"></a><span class="lineno">  604</span>} <span class="comment">// namespace crow</span></div>
-<div class="ttc" id="aclasscrow_1_1json_1_1rvalue_html"><div class="ttname"><a href="classcrow_1_1json_1_1rvalue.html">crow::json::rvalue</a></div><div class="ttdoc">JSON read value.</div><div class="ttdef"><b>Definition</b> json.h:274</div></div>
-<div class="ttc" id="aclasscrow_1_1json_1_1wvalue_html"><div class="ttname"><a href="classcrow_1_1json_1_1wvalue.html">crow::json::wvalue</a></div><div class="ttdoc">JSON write value.</div><div class="ttdef"><b>Definition</b> json.h:1286</div></div>
+<div class="ttc" id="aclasscrow_1_1json_1_1rvalue_html"><div class="ttname"><a href="classcrow_1_1json_1_1rvalue.html">crow::json::rvalue</a></div><div class="ttdoc">JSON read value.</div><div class="ttdef"><b>Definition</b> json.h:276</div></div>
+<div class="ttc" id="aclasscrow_1_1json_1_1wvalue_html"><div class="ttname"><a href="classcrow_1_1json_1_1wvalue.html">crow::json::wvalue</a></div><div class="ttdoc">JSON write value.</div><div class="ttdef"><b>Definition</b> json.h:1289</div></div>
+<div class="ttc" id="anamespacecrow_html"><div class="ttname"><a href="namespacecrow.html">crow</a></div><div class="ttdoc">The main namespace of the library. In this namespace is defined the most important classes and functi...</div></div>
 <div class="ttc" id="astructcrow_1_1_cookie_parser_1_1_cookie_html"><div class="ttname"><a href="structcrow_1_1_cookie_parser_1_1_cookie.html">crow::CookieParser::Cookie</a></div><div class="ttdef"><b>Definition</b> cookie_parser.h:37</div></div>
 <div class="ttc" id="astructcrow_1_1_cookie_parser_html"><div class="ttname"><a href="structcrow_1_1_cookie_parser.html">crow::CookieParser</a></div><div class="ttdef"><b>Definition</b> cookie_parser.h:34</div></div>
 <div class="ttc" id="astructcrow_1_1_file_store_html"><div class="ttname"><a href="structcrow_1_1_file_store.html">crow::FileStore</a></div><div class="ttdef"><b>Definition</b> session.h:508</div></div>
 <div class="ttc" id="astructcrow_1_1_in_memory_store_html"><div class="ttname"><a href="structcrow_1_1_in_memory_store.html">crow::InMemoryStore</a></div><div class="ttdoc">InMemoryStore stores all entries in memory.</div><div class="ttdef"><b>Definition</b> session.h:481</div></div>
 <div class="ttc" id="astructcrow_1_1_session_middleware_1_1context_html"><div class="ttname"><a href="structcrow_1_1_session_middleware_1_1context.html">crow::SessionMiddleware::context</a></div><div class="ttdef"><b>Definition</b> session.h:238</div></div>
 <div class="ttc" id="astructcrow_1_1_session_middleware_html"><div class="ttname"><a href="structcrow_1_1_session_middleware.html">crow::SessionMiddleware</a></div><div class="ttdef"><b>Definition</b> session.h:228</div></div>
-<div class="ttc" id="astructcrow_1_1json_1_1wvalue__reader_html"><div class="ttname"><a href="structcrow_1_1json_1_1wvalue__reader.html">crow::json::wvalue_reader</a></div><div class="ttdef"><b>Definition</b> json.h:1968</div></div>
+<div class="ttc" id="astructcrow_1_1json_1_1wvalue__reader_html"><div class="ttname"><a href="structcrow_1_1json_1_1wvalue__reader.html">crow::json::wvalue_reader</a></div><div class="ttdef"><b>Definition</b> json.h:2046</div></div>
 <div class="ttc" id="astructcrow_1_1session_1_1_cached_session_html"><div class="ttname"><a href="structcrow_1_1session_1_1_cached_session.html">crow::session::CachedSession</a></div><div class="ttdoc">CachedSessions are shared across requests.</div><div class="ttdef"><b>Definition</b> session.h:208</div></div>
 <div class="ttc" id="astructcrow_1_1session_1_1_expiration_tracker_html"><div class="ttname"><a href="structcrow_1_1session_1_1_expiration_tracker.html">crow::session::ExpirationTracker</a></div><div class="ttdoc">Expiration tracker keeps track of soonest-to-expire keys.</div><div class="ttdef"><b>Definition</b> session.h:156</div></div>
 <div class="ttc" id="astructcrow_1_1session_1_1_expiration_tracker_html_a3a41ed909b0162aaf0ba02725e468951"><div class="ttname"><a href="structcrow_1_1session_1_1_expiration_tracker.html#a3a41ed909b0162aaf0ba02725e468951">crow::session::ExpirationTracker::peek_first</a></div><div class="ttdeci">uint64_t peek_first() const</div><div class="ttdoc">Get expiration time of soonest-to-expire entry.</div><div class="ttdef"><b>Definition</b> session.h:180</div></div>
@@ -745,7 +746,7 @@ $(document).ready(function(){initNavTree('session_8h_source.html',''); initResiz
 			<ul>
 				<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_d22c1cb87b72f01e1a7f207eb3bfd1ca.html">crow</a></li><li class="navelem"><a class="el" href="dir_5bc98d550c303c0206de23cf2f7c59bb.html">middlewares</a></li><li class="navelem"><b>session.h</b></li>
 				<li class="footer">
-					Generated on Tue Jan 16 2024 for Crow by <a href="http://www.doxygen.org/index.html">
+					Generated on Mon May 13 2024 for Crow by <a href="http://www.doxygen.org/index.html">
 					<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.9.8.
 					Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. Edited by <a href="https://github.com/The-EDev" target="_new">Farook Al-Sammarraie</a>. All rights reserved.
 				</li>
