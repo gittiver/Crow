@@ -30,7 +30,8 @@ var NAVTREE =
       [ "Namespace Members", "namespacemembers.html", [
         [ "All", "namespacemembers.html", null ],
         [ "Functions", "namespacemembers_func.html", null ],
-        [ "Typedefs", "namespacemembers_type.html", null ]
+        [ "Typedefs", "namespacemembers_type.html", null ],
+        [ "Enumerations", "namespacemembers_enum.html", null ]
       ] ]
     ] ],
     [ "Classes", "annotated.html", [
@@ -56,10 +57,10 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "",
-"classcrow_1_1json_1_1rvalue.html#a9c9f7242e4164f4ed690e50e3cf5f4b1",
-"mustache_8h.html#af883f129665fb698bc4da7659d0b0841",
-"namespacecrow.html#afe3a72ef7c3edbf71d0bceacf02517c4af29973ceeff9e3672f9827d2b3615283",
-"structcrow_1_1detail_1_1routing__handler__call__helper_1_1call_3_01_f_00_01_n_int_00_01_n_uint_0b63d09427b176e92959de8d063124ae4.html"
+"classcrow_1_1json_1_1rvalue.html#a9eb58f152c08db64e400ebf90df2889e",
+"mustache_8h.html#aeb8da2ae9d8d9fe55f6ab0a7455dd667ac101058e7ea21bbbf2a5ac893088e90b",
+"namespacecrow.html#afe3a72ef7c3edbf71d0bceacf02517c4ae488f04180a5804feba48dbc87f0787d",
+"structcrow_1_1detail_1_1routing__handler__call__helper_1_1_wrapped.html#ab8030d2b00c5a3f90c269423e1d26efe"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
