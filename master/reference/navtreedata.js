@@ -41,7 +41,8 @@ var NAVTREE =
         [ "All", "functions.html", null ],
         [ "Functions", "functions_func.html", null ],
         [ "Variables", "functions_vars.html", null ],
-        [ "Typedefs", "functions_type.html", null ]
+        [ "Typedefs", "functions_type.html", null ],
+        [ "Related Functions", "functions_rela.html", null ]
       ] ]
     ] ],
     [ "Files", "files.html", [
@@ -56,12 +57,12 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"",
-"classcrow_1_1json_1_1rvalue.html#a9eb58f152c08db64e400ebf90df2889e",
-"mustache_8h.html#aeb8da2ae9d8d9fe55f6ab0a7455dd667ac101058e7ea21bbbf2a5ac893088e90b",
-"namespacecrow.html#afe3a72ef7c3edbf71d0bceacf02517c4ae488f04180a5804feba48dbc87f0787d",
-"structcrow_1_1detail_1_1middleware__indices.html#a3c23c2fd745612f1f126b63fbec1a547",
-"structcrow_1_1websocket_1_1connection.html"
+"_tiny_s_h_a1_8hpp.html",
+"classcrow_1_1json_1_1rvalue.html#addce72ce92a3553e8c600ad24c23121c",
+"mustache_8h_source.html",
+"namespacecrow.html#afe3a72ef7c3edbf71d0bceacf02517c4af31bbdd1b3e85bccd652680e16935819",
+"structcrow_1_1detail_1_1middleware__indices.html#a651af159fea3392c2df7e7146079ad8e",
+"structcrow_1_1session_1_1_cached_session.html#af979ecc0cfa749da654e5a70e1c63793"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
