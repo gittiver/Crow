@@ -18,7 +18,7 @@ jobs:
       - name: Prepare dependencies
         run: sudo apt-get update && sudo apt-get -yq install libasio-dev doxygen mkdocs graphviz zlib1g-dev gcc clang make cmake python3 python3-pip pipx git openssl libssl-dev
       - name: prepate pip dependencies
-        run: pipx install mkdocs-material mkdocs-redirects pyyaml mkdocs-meta-descriptions-plugin mike --no-input
+        run: pipx install mkdocs-material mkdocs-redirects pyyaml mkdocs-meta-descriptions-plugin mike
       - name: configure
         run: cmake -B build -DCROW_AMALGAMATE=ON
       - name: clean generated docs dir
