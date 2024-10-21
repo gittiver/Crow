@@ -1,9 +1,5 @@
 var NAVTREEINDEX1 =
 {
-"classcrow_1_1json_1_1rvalue.html#a9bf75ffd4603990be7d0eaa192ac54fb":[1,0,0,1,1,17],
-"classcrow_1_1json_1_1rvalue.html#a9c9f7242e4164f4ed690e50e3cf5f4b1":[1,0,0,1,1,32],
-"classcrow_1_1json_1_1rvalue.html#a9eb58f152c08db64e400ebf90df2889e":[1,0,0,1,1,2],
-"classcrow_1_1json_1_1rvalue.html#aa2db11774ac831fe243a0e3511946a40":[1,0,0,1,1,0],
 "classcrow_1_1json_1_1rvalue.html#ab37b37402eb83aed531868b6a1763f66":[1,0,0,1,1,4],
 "classcrow_1_1json_1_1rvalue.html#abdceb190111adaf1b18ddba808414238":[1,0,0,1,1,14],
 "classcrow_1_1json_1_1rvalue.html#ad8fc5549160087130e44b383a46b4d7c":[1,0,0,1,1,18],
@@ -82,7 +78,7 @@ var NAVTREEINDEX1 =
 "classcrow_1_1logger.html#a59b838e541514c082a01e9111c5a11f6":[1,0,0,18,1],
 "classcrow_1_1logger.html#a854e9da406195e08aa7712c7d4ca27d0":[1,0,0,18,2],
 "classcrow_1_1mustache_1_1invalid__template__exception.html":[1,0,0,3,0],
-"classcrow_1_1mustache_1_1invalid__template__exception.html#a2a598ed4d91525b8642ec0c0c4b711a9":[1,0,0,3,0,0],
+"classcrow_1_1mustache_1_1invalid__template__exception.html#a52959ee8c3564cffd8d173453df9eda2":[1,0,0,3,0,0],
 "classcrow_1_1mustache_1_1invalid__template__exception.html#a6ec8bc8b03e34a5d2443d2f080e9b739":[1,0,0,3,0,2],
 "classcrow_1_1mustache_1_1invalid__template__exception.html#ac7fa382187fc426bca817bc56b1ffed9":[1,0,0,3,0,1],
 "classcrow_1_1mustache_1_1template__t.html":[1,0,0,3,3],
@@ -249,5 +245,9 @@ var NAVTREEINDEX1 =
 "mustache_8h.html#a8db3aff497ff60b32321fc0a16274576":[2,0,0,0,17,12],
 "mustache_8h.html#abe44de50c382e0d39e7ef5b7d5057ca6":[2,0,0,0,17,11],
 "mustache_8h.html#ae1f8ebbbcd4c41b97a2aebb247a123f9":[2,0,0,0,17,4],
-"mustache_8h.html#aeb8da2ae9d8d9fe55f6ab0a7455dd667":[2,0,0,0,17,5]
+"mustache_8h.html#aeb8da2ae9d8d9fe55f6ab0a7455dd667":[2,0,0,0,17,5],
+"mustache_8h.html#aeb8da2ae9d8d9fe55f6ab0a7455dd667a047e46a0bc852354acb31de6a507a3fe":[2,0,0,0,17,5,3],
+"mustache_8h.html#aeb8da2ae9d8d9fe55f6ab0a7455dd667a44ffd38a6dea695cbe2b34efdcc6cf27":[2,0,0,0,17,5,6],
+"mustache_8h.html#aeb8da2ae9d8d9fe55f6ab0a7455dd667a470529d743a17635308c52dc50efccd8":[2,0,0,0,17,5,4],
+"mustache_8h.html#aeb8da2ae9d8d9fe55f6ab0a7455dd667a6a92aa81e0cd0b1c2f77a84226ad4777":[2,0,0,0,17,5,2]
 };
